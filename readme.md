@@ -1,3 +1,3 @@
-#MISC
+# MISC
 
-Custom codebase for Abstract data structures
+Ruby implementations of abstract data types.
