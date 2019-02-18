@@ -10,7 +10,7 @@ class Stack
 
 	def push(a)
 		@list.add(0, a)
-		self.size = list.size
+		self.size = @list.size
 	end
 
   def pop
