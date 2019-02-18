@@ -1,6 +1,6 @@
 require "./linked_list_stack"
 
-def balanced_brackets?(string)
+def balanced_brackets?(string) #A method that is used to check if the passed string has properly enclosed brackets (){}[]
   input = string.scan /\(|\)|\{|\}|\[|\]/
   @brackets = Stack.new
   input.each do |bracket|
