@@ -10,11 +10,11 @@ class Queue
 
   def enqueue(data)
 	  @list.add(data)
-    self.size = list.size
+    self.size = @list.size
   end
 
   def dequeue
 	  @list.remove(0)
-    self.size = list.size
+    self.size = @list.size
   end
 end
