@@ -1,3 +1,3 @@
-# MISC
+# Abstract Data Strutcures
 
-Ruby implementations of abstract data types.
+Implementations of abstract data structures, written in Ruby.
