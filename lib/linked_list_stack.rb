@@ -18,4 +18,12 @@ class Stack
 		@list.remove(0)
 		self.size = @list.size
 	end
+
+  def top
+  	@list.get(0)
+  end
+
+  def stacked_previous
+  	@list.get(1)
+  end
 end
